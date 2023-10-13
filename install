@@ -1,0 +1,6 @@
+#!/bin/sh
+
+FW_DIR="$DESTDIR/lib/firmware"
+
+mkdir -p $FW_DIR
+  cp -a firmware/* $FW_DIR
